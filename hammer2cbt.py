@@ -219,7 +219,7 @@ for n in range(int(args.fxnum), int(args.fxnum) + loop):
 			bufadd(temp_buf[7])
 
 	# Replace placeholder value for fxh_len
-	fxh_buf[1] = fxh_len + 1
+	fxh_buf[1] = fxh_len
 
 	# Write to C file
 	if args.out == ".":
@@ -252,3 +252,4 @@ if args.fxammo:
 
 if args.fxnamelist:
 	fxnamelist.close()
+
