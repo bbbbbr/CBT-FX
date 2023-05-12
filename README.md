@@ -1,3 +1,15 @@
+
+# Fork of CBT-FX which adds support for the Mega Duck
+This is a fork of [CBT-FX](https://github.com/datguywitha3ds/CBT-FX) which supports running on the Mega Duck (a console clone of the Game Boy with some register address and bit order changes).
+
+It also includes an ASM version of the update function which is a little smaller and faster (toggle with the flag `CBTFX_UPDATE_ASM` in cbtfx.h).
+
+---------------------------
+
+# Original Repo Readme Contents Below
+(Thanks to Coffee Bat for making CBT-FX and open sourcing it)
+---------------------------
+
 # CBT-FX: It just works
 This is my attempt at writing a sound effect driver that's natively compatible with [GBDK-2020](https://github.com/gbdk-2020/gbdk-2020/) (Instead of having to use register values or converting other assembly drivers to GBDK-2020), made to be used with the FX Hammer editor (See `hammered.gb` and `hammered.sav`). It's aimed at people who want good sounding sound effects but don't wanna have to do custom solutions, feel free to use the translated example SFX's too (see [here](/include/sfx)).
 
